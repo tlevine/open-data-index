@@ -11,6 +11,16 @@
   "keywords": [ ],
   "version": "2013",
   "last_updated": "2014-02-23",
+  "publishers":[ {
+    "name": "Thomas Levine",
+    "email": "_@thomaslevine.com",
+    "web": "http://thomaslevine.com"
+  }],
+  "maintainers": [{
+    "name": "Thomas Levine",
+    "email": "_@thomaslevine.com",
+    "web": "http://thomaslevine.com"
+  }],
   "sources": [{
     "name": "Open Data Index (Open Knowledge Foundation)",
     "web": "https://index.okfn.org/"
