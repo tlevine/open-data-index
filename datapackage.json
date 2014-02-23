@@ -1,0 +1,78 @@
+{
+  "name": "open-data-census",
+  "title": "Open Data Index",
+  "description": "The Open Data Index assesses the state of open government data around the world.",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ ],
+  "version": "2013",
+  "last_updated": "2014-02-23",
+  "sources": [{
+    "name": "Open Data Index (Open Knowledge Foundation)",
+    "web": "https://index.okfn.org/"
+  }],
+  "resources": [
+    {
+      "path": "open-data-index.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "Timestamp",
+            "type": "datetime",
+            "format": "%d/%m/%Y %H:%M:%S"
+          },{
+            "id": "Census Country",
+            "type": "string"
+          },{
+            "id": "Dataset",
+            "type": "string"
+          },{
+            "id": "Data Availability [Does the data exist?]",
+            "type": "boolean"
+          },{
+            "id": "Data Availability [Is it in digital form?]",
+            "type": "boolean"
+          },{
+            "id": "Data Availability [Is it machine readable? (E.g. spreadsheet not PDF)]",
+            "type": "boolean"
+          },{
+            "id": "Data Availability [Available in bulk? (Can you get the whole dataset easily)]",
+            "type": "boolean"
+          },{
+            "id": "Data Availability [Is it publicly available, free of charge?]",
+            "type": "boolean"
+          },{
+            "id": "Data Availability [Is it openly licensed? (as per the http://OpenDefinition.org/)]",
+            "type": "boolean"
+          },{
+            "id": "Data Availability [Is it up to date?]",
+            "type": "boolean"
+          },{
+            "id": "Location of Data Online",
+            "type": "url"
+          },{
+            "id": "Date it became available",
+            "type": "datetime",
+            "format": "%d/%m/%Y %H:%M:%S"
+          },{
+            "id": "Details and comments",
+            "type": "string"
+          },{
+            "id": "Your name (optional)",
+            "type": "string"
+          },{
+            "id": "Link for you (optional)",
+            "type": "url"
+          },{
+            "id": "Census Country",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
